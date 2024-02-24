@@ -30,6 +30,7 @@ def complete_task(task_id):
     except IndexError:
         print('Invalid task index !')
 
+
 # this function removes a task from our tasks list
 # it accepts a task_id as its argument
 # because we start counting index from 0
@@ -37,8 +38,6 @@ def complete_task(task_id):
 # in the tasks list
 # we also use error handling using try and except in case the task index doesnot exist in our task lists
 # we can print an error message and prevent our app from crashing.
-
-
 def remove_task(task_id):
     try:
         index = task_id - 1
@@ -47,9 +46,8 @@ def remove_task(task_id):
     except IndexError:
         print('Invalid task index !')
 
+
 # this function prints all our tasks
-
-
 def view_tasks():
     if len(tasks) > 0:
         print('All tasks:')
