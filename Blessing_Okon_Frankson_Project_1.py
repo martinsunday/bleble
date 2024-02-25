@@ -59,7 +59,7 @@ def view_tasks():
         print('No tasks yet !')
 
 
-# our main app begins, here we will use all the fucctions we defined above
+# our main app begins, here we will use all the functions we defined above
 # because we use an infinite while loop, our app will remain running
 # until we decide to exit.
 print('Welcome to my todo list manager app !')
